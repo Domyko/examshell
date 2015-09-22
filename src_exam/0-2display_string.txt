@@ -11,4 +11,5 @@ ___________________________________
 -rq : n/a
 ___________________________________
 ~Ecris la fonction ft_putstr que tu as apprise juste apres le ft_putchar.
+-Elle devra etre prototypee de la maniere suivant : void	ft_putstr(char *str);
 ------------------------------------------------------------------------------------------------------
