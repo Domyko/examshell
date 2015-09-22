@@ -1,0 +1,30 @@
+------------------------------------------------------------------------------------------------------
+		Practice_mod : Examshell 01 // Exercice 02 // sub : Display swapped entries
+------------------------------------------------------------------------------------------------------
+		Consigne :
+___________________________________
+Exercice 02: ft_swap
+___________________________________
+-Dossier de rendu : ex02/
+-Fichiers a rendre : ft_swap.c, main.c, ft_putstr.c
+Fonction autorisee : write
+-rq : Ne pas oublier de rendre la TOTALITE des fichiers
+___________________________________
+~Ecris un programme qui recoit deux entree, qui echange leur valeur et qui affiche les deux caractere modifiees avec un retour a la ligne pour bien distinguer les caracteres. Cette fonction ne peut accepter qu'un seul caractere par entree. Si il y a plus d’un caractère, le
+programme affiche “Erreur”
+___________________________________
+~Exemple :
+./a.out "d" "f"
+~f
+~d
+
+./a.out e p
+~p
+~e
+
+./a.out e
+~Erreur
+
+./a.out des cornichons
+~Erreur
+------------------------------------------------------------------------------------------------------

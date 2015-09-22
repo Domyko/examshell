@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------------------------------
+		Practice_mod : Examshell 01 // Exercice 03 // sub : Count character in string
+-------------------------------------------------------------------------------------------------------
+		Consigne :
+___________________________________
+Exercice 03: ft_strlen
+___________________________________
+-Dossier de rendu : ex03/
+-Fichier a rendre : ft_strlen.c
+-Fonction autorisee : write
+-rq : n/a
+___________________________________
+~Ecris un programme qui va compter le nombre de caractere dans une chaine donnee et envoyer le 
+nombre trouve dans la console sur la sortie 1.
+___________________________________
+Exemple :
+
+./a.out descaracterealeatoires
+~22
+
+./a.out des caracteres
+~Erreur
+
+./a.out "des caracteres"
+~14
+-------------------------------------------------------------------------------------------------------

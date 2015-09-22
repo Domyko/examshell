@@ -1,0 +1,34 @@
+-------------------------------------------------------------------------------------------------------
+		Practice_mod : Examshell 01 // Exercice 04 // sub : Make a libft
+-------------------------------------------------------------------------------------------------------
+		Consigne :
+___________________________________
+Exercice 04: libft.a
+___________________________________
+-Dossier de rendu : ex04/
+-Fichier a rendre : libft.a, Makefile
+-Fonction autorisee : *
+-rq : N'oubliez pas de rendre le Makefile
+___________________________________
+~Fait ta libft.a qui contiendra toutes les fonction de 42 que tu connais (celles qui commencent par "ft") qui devra
+etre cree par la commande "make libft". Tu dois donc faire un Makefile capable de cree une library 
+tout seul a partir des fichiers ft_*.c qui seront dans un dossier "src".
+~Ton Makefile doit annoncer TOUTES les action qu'il fera. Il ne doit pas afficher les commandes qu'il
+utilise pour la compilation et la creation de la lib.
+___________________________________
+Exemple :
+
+(Makefile qui ne sera pas accepter)
+make libft
+~gcc -W src/*.c
+~ar rb libft.a *.o
+
+(Makefile correct)
+make libft
+~Compilation des fichier.c
+~Creation de la lib
+~Termine
+
+ps : Le premier exemple utilise des commandes qui vous feront des erreur de compilation, inutile de 
+les copier ;)
+-------------------------------------------------------------------------------------------------------

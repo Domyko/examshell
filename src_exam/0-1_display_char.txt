@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------------------------------
+		Practice_mod : Examshell 01 // Exercice 00 // sub : Display one character
+-------------------------------------------------------------------------------------------------------
+Bienvenue dans l'entrainement pour l'exam, ici tu recevras des exercices similaires a ceux que
+tu pourrais recevoir en examen. Ce script est fait pour que tu puisses t'ameliorer ne l'oublie pas :)
+-------------------------------------------------------------------------------------------------------
+		Consigne :
+___________________________________
+Exercice 00: ft_putchar
+___________________________________
+-Dossier de rendu : ex00/
+-Fichier a rendre : ft_putchar.c
+-Fonction autorisee : write
+-rq : n/a
+___________________________________
+~Ecris la fonction ft_putchar que tu dois connaitre depuis le debut de ta piscine.
+------------------------------------------------------------------------------------------------------
