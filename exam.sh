@@ -6,7 +6,7 @@
 #    By: cgully <cgully@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/09/19 04:47:13 by cgully            #+#    #+#              #
-#    Updated: 2015/09/21 23:16:03 by cgully           ###   ########.fr        #
+#    Updated: 2015/09/22 13:37:30 by cgully           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,25 +16,43 @@ mkdir exam_result
 cd exam
 date
 make start
-sleep 300
+while true; do
+    read -p "Ecris yes quand tu as fini ton programme : " yn
+    case $yn in
+        [Yy]* ) break;;
+        [Nn]* ) echo "Il faut ecrire yes quand tu as fini, pas no.";;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
 mkdir ../exam_result/ex00
 ps -ef | grep "emacs" | awk '{print $2}' | xargs kill
 ps -ef | grep "vim" | awk '{print $2}' | xargs kill
 cp rendu/ex00/ft_putchar.c ../exam_result/ex00
 date
 make exam01
-sleep 300
-echo "Il te reste 5 minutes"
-sleep 300
+while true; do
+    read -p "Ecris yes quand tu as fini ton programme : " yn
+    case $yn in
+        [Yy]* ) break;;
+        [Nn]* ) echo "Il faut ecrire yes quand tu as fini, pas no.";;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
 mkdir ../exam_result/ex01
 ps -ef | grep "emacs" | awk '{print $2}' | xargs kill
 ps -ef | grep "vim" | awk '{print $2}' | xargs kill
 cp rendu/ex01/ft_putstr.c ../exam_result/ex01
+cp rendu/ex01/main.c ../exam_result/ex01
 date
 make exam02
-sleep 900
-echo "il te reste 5 minutes"
-sleep 300
+while true; do
+    read -p "Ecris yes quand tu as fini ton programme : " yn
+    case $yn in
+        [Yy]* ) break;;
+        [Nn]* ) echo "Il faut ecrire yes quand tu as fini, pas no.";;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
 mkdir ../exam_result/ex02
 ps -ef | grep "emacs" | awk '{print $2}' | xargs kill
 ps -ef | grep "vim" | awk '{print $2}' | xargs kill
@@ -43,18 +61,28 @@ cp rendu/ex02/main.c ../exam_result/ex02
 cp rendu/ex02/ft_putstr.c ../exam_result/ex02
 date
 make exam03
-sleep 900
-echo "Il te reste 5 minutes"
-sleep 300
+while true; do
+    read -p "Ecris yes quand tu as fini ton programme : " yn
+    case $yn in
+        [Yy]* ) break;;
+        [Nn]* ) echo "Il faut ecrire yes quand tu as fini, pas no.";;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
 mkdir ../exam_result/ex03
 ps -ef | grep "emacs" | awk '{print $2}' | xargs kill
 ps -ef | grep "vim" | awk '{print $2}' | xargs kill
 cp rendu/ex03/ft_strlen.c ../exam_result/ex03
 date
 make exam04
-sleep 1500
-echo "Il te reste 5 minutes"
-sleep 300
+while true; do
+    read -p "Ecris yes quand tu as fini ton programme : " yn
+    case $yn in
+        [Yy]* ) break;;
+        [Nn]* ) echo "Il faut ecrire yes quand tu as fini, pas no.";;
+        * ) echo "Please answer yes or no.";;
+    esac
+done
 mkdir ../exam_result/ex04
 ps -ef | grep "emacs" | awk '{print $2}' | xargs kill
 ps -ef | grep "vim" | awk '{print $2}' | xargs kill
