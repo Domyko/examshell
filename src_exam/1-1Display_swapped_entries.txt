@@ -10,9 +10,9 @@ ___________________________________
 Fonction autorisee : write
 -rq : Ne pas oublier de rendre la TOTALITE des fichiers
 ___________________________________
-~Ecris un programme qui recoit deux entree, qui echange la valeur des primers caractere de chaque chaine
+~Ecris un programme qui recoit deux entree, qui echange la valeur des premiers caracteres de chaque chaine
 et qui affiche les deux chaines modifiees avec un retour a la ligne entre les deux chaines.
--Si le programme recoit moins ou plus d'une entree, il affichera "Erreur" avec un retour a la ligne.
+-Si le programme recoit moins ou plus de deux entree, il affichera "Erreur" avec un retour a la ligne.
 ___________________________________
 ~Exemple :
 ./a.out
