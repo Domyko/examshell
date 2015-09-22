@@ -6,7 +6,7 @@
 #    By: cgully <cgully@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/09/19 04:00:36 by cgully            #+#    #+#              #
-#    Updated: 2015/09/21 23:16:01 by cgully           ###   ########.fr        #
+#    Updated: 2015/09/22 13:39:38 by cgully           ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -22,8 +22,6 @@ exam00:
 	@touch rendu/ex00/ft_putchar.c
 	@echo "Affichage de la consigne ..."
 	@cat src_exam/0-1_display_char.txt
-	@echo "Il te reste 3h59 pour terminer l'exam_test"
-	@echo "Tu as 5 minutes pour faire l'ex00"
 
 exam01:
 	@echo ".................................................................................................................................................."
@@ -35,7 +33,6 @@ exam01:
 	@echo "Affichage de la consigne ..."
 	@cat src_exam/0-2display_string.txt
 	@echo "Exercice pret !"
-	@echo "Tu as 10 minutes pour faire l'ex01"
 
 exam02:
 	@echo ".................................................................................................................................................."
@@ -49,7 +46,6 @@ exam02:
 	@echo "Affichage de la consigne ..."
 	@cat src_exam/1-1Display_swapped_entries.txt
 	@echo "Exercice pret !"
-	@echo "Tu as 20 minutes pour faire l'exercice"
 
 exam03:
 	@echo ".................................................................................................................................................."
@@ -58,10 +54,10 @@ exam03:
 	@echo "Creation du dossier pour l'ex03 ..."
 	@mkdir rendu/ex03
 	@touch rendu/ex03/ft_strlen.c
+	@touch rendu/ex03/main.c
 	@echo "Affichage de la consigne ..."
 	@cat src_exam/1-2Count_char_string.txt
 	@echo "Exercice pret !"
-	@echo "Tu as 20 minutes pour faire l'exercice"
 
 exam04:
 	@echo ".................................................................................................................................................."
@@ -75,7 +71,6 @@ exam04:
 	@echo "Affichage de la consigne ..."
 	@cat src_exam/1-3libft.txt
 	@echo "Exercice pret !"
-	@echo "Tu as 30 minutes pour faire l'exercice"
 
 rmrf:
 	@echo ".................................................................................................................................................."
