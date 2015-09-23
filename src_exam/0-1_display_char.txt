@@ -14,4 +14,5 @@ ___________________________________
 -rq : n/a
 ___________________________________
 ~Ecris la fonction ft_putchar que tu dois connaitre depuis le debut de ta piscine.
+-Elle devra etre protypee de la maniere suivant : void	ft_putchar(char c);
 ------------------------------------------------------------------------------------------------------
